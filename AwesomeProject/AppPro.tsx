@@ -8,7 +8,9 @@ function AppPro(): JSX.Element {
 
   return (
     <View style={styles.container}>
-      <Text style={isDarkMode ? styles.da : styles.whiteText}>Hello Aman</Text>
+      <Text style={isDarkMode ? styles.whiteText : styles.whiteText}>
+        Hello Aman
+      </Text>
     </View>
   );
 }
