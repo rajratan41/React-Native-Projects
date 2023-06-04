@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
   },
   container: {
     padding: 8,
+    backgroundColor: '#242B2E',
   },
   card: {
     flex: 1,
@@ -46,11 +47,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: 100,
     height: 100,
-    borderRadius: 4,
+    borderRadius: 8,
     margin: 8,
   },
   cardElevated: {
     backgroundColor: '#CAD5E2',
-    elevation: 4,
+    elevation: 8, //shadow
+    shadowOffset: {
+      width: 1,
+      height: 1,
+    },
+    shadowColor: '#EF5354',
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
   },
 });
